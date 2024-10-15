@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width,initial-sacale=1.0">
+    <title>Interactive - Button</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family:sans-serif;
+            background-color: honeydew;
+        }
+        h1{
+            text-align: center;
+        }
+        button{
+            color: white;
+            background-color: red;
+            border: none;
+            padding: 5px;
+            align-items: center;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body id="myBody">
+        <div class="container">
+          <h1>Latest New's</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur vel, adipisci ipsum ea cum eum ipsa id rem? Iure porro ex expedita magni perferendis? Temporibus a veritatis soluta officiis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur vel, adipisci ipsum ea cum eum ipsa id rem? Iure porro ex expedita magni perferendis? Temporibus a veritatis soluta officiis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur vel, adipisci ipsum ea cum eum ipsa id rem? Iure porro ex expedita magni perferendis? Temporibus a veritatis soluta officiis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur vel, adipisci ipsum ea cum eum ipsa id rem? Iure porro ex expedita magni perferendis? Temporibus a veritatis soluta officiis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur vel, adipisci ipsum ea cum eum ipsa id rem? Iure porro ex expedita magni perferendis? Temporibus a veritatis soluta officiis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur vel, adipisci ipsum ea cum eum ipsa id rem? Iure porro ex expedita magni perferendis? Temporibus a veritatis soluta officiis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur vel, adipisci ipsum ea cum eum ipsa id rem? Iure porro ex expedita magni perferendis? Temporibus a veritatis soluta officiis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur vel, adipisci ipsum ea cum eum ipsa id rem? Iure porro ex expedita magni perferendis? Temporibus a veritatis soluta officiis?</p>
+         <h1>Trending One</h1>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore blanditiis eos, laudantium obcaecati autem numquam quod consectetur, quisquam fuga possimus praesentium illum velit molestiae eum expedita culpa! Repellat, voluptatibus tempora?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur vel, adipisci ipsum ea cum eum ipsa id rem? Iure porro ex expedita magni perferendis? Temporibus a veritatis soluta officiis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur vel, adipisci ipsum ea cum eum ipsa id rem? Iure porro ex expedita magni perferendis? Temporibus a veritatis soluta officiis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur vel, adipisci ipsum ea cum eum ipsa id rem? Iure porro ex expedita magni perferendis? Temporibus a veritatis soluta officiis?</p>
+        </div>
+    <div class="btn">
+        <button onclick="changeColor()">Change - Background</button> 
+    </div>
+    
+    <script>
+        function changeColor(){
+            let changecolor = document.getElementById("myBody");
+            changecolor.style.backgroundColor = "gold";
+        }
+    </script>    
+</body>
+</html>
